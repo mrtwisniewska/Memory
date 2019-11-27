@@ -1,0 +1,188 @@
+html, body {margin:0;}
+
+html {
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100%;
+    background:-webkit-linear-gradient(#0B4546 40%, #000000);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top:1vh;
+}
+
+span {   
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:5%
+}
+
+a, button{
+    border: none;
+    color: #00BED3;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: -webkit-linear-gradient(#001105, #0B4546);
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 3vmin;
+    text-decoration: none;
+    outline: none;
+    letter-spacing: 2px;
+    display: inline-block;
+    text-shadow: none;
+    margin: 10px;
+    transition: all 0.5s ease-out;
+}
+
+a:hover, button:hover{
+    -webkit-box-shadow: 0px 0px 10px 5px #41FF1C;
+    -moz-box-shadow: 0px 0px 15px 5px #41FF1C;
+    box-shadow: 0px 0px 15px 5px #41FF1C;
+    color: #41FF1C;
+    transition: all 0.5s ease-out;
+}
+
+.off:hover{    
+    -webkit-box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+    -moz-box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+    box-shadow: 0px 0px 0px 0px rgb(0, 0, 0);
+}
+
+#title {
+    margin: auto;
+    margin-top: 0%;
+    display: inline-block;
+    font-size: 15vmin;
+    letter-spacing: 5px;
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top:2vh;
+    padding-bottom: 0.75vh; 
+    color: #41FF1C;
+    text-shadow: #000000;
+    background-color: #001105;
+    -webkit-animation: neon 1s ease-in-out infinite alternate;
+    -moz-animation: neon 1s ease-in-out infinite alternate;
+    animation: neon 1s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+    from {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #41FF1C, 0 0 40px #41FF1C, 0 0 50px #41FF1C, 0 0 60px #41FF1C, 0 0 70px #41FF1C;
+        color: #41FF1C;
+    }
+    to {
+        box-shadow: 0 0 20px #fff, 0 0 30px #00BED3, 0 0 40px #00BED3, 0 0 50px #00BED3, 0 0 60px #00BED3, 0 0 70px #00BED3, 0 0 80px #00BED3;
+        color: #00BED3;
+    }
+  }
+
+@keyframes neon2 {
+    from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #41FF1C, 0 0 20px #41FF1C, 0 0 25px #41FF1C, 0 0 30px #41FF1C, 0 0 35px #41FF1C;
+    }
+    to {
+        text-shadow: 0 0 10px #fff, 0 0 30px #00BED3, 0 0 40px #00BED3, 0 0 50px #00BED3, 0 0 60px #00BED3, 0 0 70px #00BED3, 0 0 80px #00BED3;
+    }
+  }
+  
+#wstep {
+    font-size: 2.5vh;
+    text-align: center;
+    font-weight: bolder; 
+    text-shadow: 0px 0px 7px #41FF1C;
+    color:#001105;
+    margin:auto;
+    letter-spacing: 1px;
+    -webkit-animation: neon2 1s ease-in-out infinite alternate;
+    -moz-animation: neon2 1s ease-in-out infinite alternate;
+    animation: neon2 1s ease-in-out infinite alternate;
+}
+
+div:hover{
+    -moz-box-shadow: inset 0 0 15px #0B4546;
+    -webkit-box-shadow: inset 0 0 15px #0B4546;
+    box-shadow: inset 0 0 15px #0B4546;
+    transition: 0.4s ease-in-out;
+}
+
+div {
+    flex-basis: 12%;
+    flex-grow: 1;
+    height: 20.5vh;
+    border: 2px solid #0B4546;
+    background-image: url(hidden.png);
+    box-sizing: border-box;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    background-size: cover;  
+    background-position: center;
+    transition: 0ms;
+    padding:0px;
+}
+
+.one {
+    background-image: url(one.jpg);
+}
+
+.two {
+    background-image: url(two.jpg);
+}
+
+.three {
+    background-image: url(three.jpg);
+}
+
+.four {
+    background-image: url(four.png);
+}
+
+.five {
+    background-image: url(five.png);
+}
+
+.six {
+    background-image: url(six.jpg);
+}
+
+.seven {
+    background-image: url(seven.jpg);
+}
+
+.eight {
+    background-image: url(eight.jpg);
+}
+
+.nine {
+    background-image: url(nine.jpg);
+}
+
+.ten {
+    background-image: url(ten.jpg);
+}
+
+.eleven {
+    background-image: url(eleven.jpg);
+}
+
+.twelve {
+    background-image: url(twelve.jpg);
+}
+
+.hidden {
+    background-image: url(hidden.png);
+}
+
+.off {
+    background-image: url(off.png);
+}
